@@ -1,0 +1,36 @@
+body{
+    color: rgb(252, 226, 188);
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    text-shadow: ;
+}
+
+header{
+    font-weight: bolder;
+}
+#Links{
+    display: inline;
+}
+
+h2{
+    text-align: left;
+}
+
+ul{
+    border-radius: 15px 50px 30px 15px;
+    background-color: #ffff66;
+    color: black;
+    text-shadow: black;
+    text;
+    list-style-type:disc;
+    border-style: solid;
+    border-color: #e6e6e6;
+    border-width: 3px 0 0 3px;
+}
+ul li{
+    padding: 5%;
+    text-shadow: black;
+    text-size-adjust: larger;
+    margin: 1%;
+}
