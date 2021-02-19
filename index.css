@@ -1,20 +1,52 @@
 body{
-    color: rgb(252, 226, 188);
+    color: black;
     background-color: black;
+    background-image: url("jupiter_background.jpg");
+    background-position: center;
     text-align: center;
-    align-items: center;
-    text-shadow: ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    font-family: "Century Gothic", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    color: blanchedalmond;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 7em;
+    position: relative;
+    margin-top: 10px;
 }
 
-header{
+#header{
     font-weight: bolder;
-}
-#Links{
-    display: inline;
+    
 }
 
 h2{
-    text-align: left;
+    color: black;
+    font-weight: 700;
+    font-size: 60px;
+    text-shadow: 5px 5px 10px grey;
+}
+#Subheader{
+    text-align: center;
+}
+#Summary{
+    
+    text-shadow: 5px 5px 10px blanchedalmond;
+    word-spacing: 5px;
+}
+
+#Starring{
+    color:blanchedalmond;
+    font-size: 25px;
+}
+table{
+    align-self: center;
 }
 
 ul{
@@ -22,15 +54,37 @@ ul{
     background-color: #ffff66;
     color: black;
     text-shadow: black;
-    text;
     list-style-type:disc;
     border-style: solid;
     border-color: #e6e6e6;
     border-width: 3px 0 0 3px;
+    
 }
 ul li{
-    padding: 5%;
+    padding: 5px;
     text-shadow: black;
     text-size-adjust: larger;
     margin: 1%;
+}
+#Links{
+    display: inline-block;
+    padding-inline: 5px;  
+    margin-inline: 10px;
+}
+
+#Links :hover{
+    background-color: #999966;
+    color: black;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.links a{
+    font-family:  monospace;    
+}
+
+#Links a{
+    text-decoration: none;
+}
+#Footer{
+    background-color: grey;
 }
