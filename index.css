@@ -45,6 +45,9 @@ h2{
     color:blanchedalmond;
     font-size: 25px;
 }
+#Directed{
+    color:blanchedalmond;
+}
 table{
     align-self: center;
 }
@@ -58,10 +61,10 @@ ul{
     border-style: solid;
     border-color: #e6e6e6;
     border-width: 3px 0 0 3px;
-    
+    width: 220px;
 }
 ul li{
-    padding: 5px;
+    padding-top: 5px;
     text-shadow: black;
     text-size-adjust: larger;
     margin: 1%;
